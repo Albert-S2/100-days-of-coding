@@ -8,3 +8,13 @@ h1 {
     color: rgb(158, 205, 87);
     font-size: 30px;
 }
+
+.merge {
+    color: rgb(42, 199, 220);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    color: rgb(183, 161, 39);
+}
