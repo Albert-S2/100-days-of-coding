@@ -1,20 +1,43 @@
+
+body {
+    
+    max-width: 400px;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: 20px;
+    
+}
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    text-align:center;
+}
+h5 {
     font-size: 20px;
-    color: red;
+    text-align: right;
+    margin-right: 10px;
+}
+.beginning {
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 60px;
+    background-color: rgba(231, 215, 168, 0.842);
+    padding: 10px;
 }
 
 .branch {
     color: rgb(158, 205, 87);
     font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .merge {
     color: rgb(42, 199, 220);
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 ul li {
     color: rgb(183, 161, 39);
+    font-family: 'Quicksand', sans-serif;
 }
