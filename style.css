@@ -41,3 +41,28 @@ ul li {
     color: rgb(183, 161, 39);
     font-family: 'Quicksand', sans-serif;
 }
+
+.envelope {
+    max-width: 400px;
+    max-height: 1000px;
+    background-color: red;
+    border-style: solid;
+    border-color: gold;
+    border-width: 0 3px;
+    padding-bottom: 600px;
+}
+
+.top {
+    border-style:solid;
+    border-width: 3px;
+    border-color: gold;
+    border-radius: 0 0 200px 200px;
+}
+
+.year {
+    color: gold;
+    text-align: center;
+    font-family: 'Diphylleia', serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
