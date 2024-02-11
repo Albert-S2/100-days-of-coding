@@ -1,1 +1,1 @@
-alert("Trying Java Script");
+alert("Successful Day 6!!");
