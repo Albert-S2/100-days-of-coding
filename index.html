@@ -60,5 +60,22 @@
     <div>Day 7 - JavaScript day2 - simple functions</div>
 </div>
         <script src="/vscode.js"></script>
+
+        <button onclick="
+            console.log(`Cart Quantity: ${cartQuantity}`);
+        ">Show</button>
+
+        <button onclick="
+            cartQuantity = cartQuantity + 1;
+            console.log(`Cart Quantity: ${cartQuantity}`);
+        ">Add</button>
+
+        <button>+2</button>
+        <button>+3</button>
+        <button>Reset</button>
+
+        <script>
+            let cartQuantity = 0;
+        </script>
     </body>
 </html>
