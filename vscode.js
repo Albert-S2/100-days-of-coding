@@ -1,19 +1,17 @@
 
-let variable1 = 3;
-console.log(variable1);
 
-let calculation = 2 + 2;
-console.log(calculation);
-console.log(calculation + 2);
 
-let result = calculation +2;
-console.log(result);
+if (false) {
+    console.log("Grrat News, you did it!");
+} else {
+    console.log("I am sorry, you need to start again);")
+ }
 
-let message = 'hello';
-console.log(message);
-
-variable1 =5;
-console.log(variable1);
-
-variable1 = variable1 + 1;
-console.log(variable1);
+ const age = 29;
+ if (age >= 16) {
+    console.log('You can drive');
+ } else if (age >= 14) {
+    console.log('You are almost there');
+ } else {
+    console.log('You cannot drive');
+ }
