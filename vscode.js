@@ -32,13 +32,7 @@ const todolist = [
 //  console.log(numsdoubled); 
 
 // Happy Valentine's Day!
-const love = (you, me) => {
-  let forever = true;
-  while (forever) {
-    console.log(`I ❤️ ${you}`);
-    console.log(`And ${you} ❤️ me`);
-    console.log(`Together, we make a perfect team!`);
-  }
-};
+let name = 'Albert'
+let age = 35
 
-love("JavaScript", "Coder");
+person = (name + age)
