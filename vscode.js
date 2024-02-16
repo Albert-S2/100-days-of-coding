@@ -1,20 +1,56 @@
 
+// let names = ['Ana', 'Patrick', 'Thomas', 'Julie', 'Kathryn', 'Isabel']; 
 
-let britishCities = {
-  london: 10,
-  birmingham: 2,
-  manchester: 1
-};
-
-function biggestTown(townUK) {
-  if (britishCities.london > britishCities.birmingham) {
-    return britishCities.london; 
-  } else {
-    return britishCities.birmingham;
-  };
-  return (biggestTown)
-}
+// for (let i = 0; i < names.length; i++) {
   
+//   console.log(`Welcome to the team, ${[i]}`); 
+// }
 
-console.log(`The biggest town in UK is ${biggestTown}`);
+function countNumberOfNinesInNumber(number) {
+  let count = 0;
 
+  for(let i = 0; i < number.toString().length; i++) {
+    let newNumber = number.toString();
+    let digit = newNumber [i];
+    if ('9' === digit) {
+      count++;
+    }
+  }
+  return count
+}
+console.log(countNumberOfNinesInNumber(5679959476909)); 
+
+function howManyFours(numbers) {
+  let count = 0;
+
+  for(let i = 0; i < numbers.toString().length; i++) {
+    let newNumbers = numbers.toString()
+    let digits = newNumbers[i];
+    if('4' === digits) {
+      count++
+    }
+  } 
+  return count
+} console.log(howManyFours(46464562342444))
+
+let characters = ["Richard", "John", "Charles", "Henry"]
+
+for(let index = 0; index < characters.length; index++) {
+  characters[index] = `${characters[index]} King`
+
+}
+console.log(`${characters}`); 
+
+function applyDiscount(totalAmaunt) {
+  let minSpend = 30
+
+  let discount = totalAmaunt * 0.9;
+
+  if(totalAmaunt > minSpend) {
+    finalAmaunt = discount;
+    return finalAmaunt; 
+  } else {
+    return totalAmaunt;
+  }
+}
+console.log(`With discount your price is ${applyDiscount(300)}`)
