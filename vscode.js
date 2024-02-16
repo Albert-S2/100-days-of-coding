@@ -1,10 +1,5 @@
 
-// let names = ['Ana', 'Patrick', 'Thomas', 'Julie', 'Kathryn', 'Isabel']; 
 
-// for (let i = 0; i < names.length; i++) {
-  
-//   console.log(`Welcome to the team, ${[i]}`); 
-// }
 
 function countNumberOfNinesInNumber(number) {
   let count = 0;
@@ -40,6 +35,14 @@ for(let index = 0; index < characters.length; index++) {
 
 }
 console.log(`${characters}`); 
+
+
+let names = ['Ana', 'Patrick', 'Thomas', 'Julie', 'Kathryn', 'Isabel']; 
+
+for (let i = 0; i < names.length; i++) {
+  
+  console.log(`Welcome to the team, ${[i]}`); 
+}
 
 function applyDiscount(totalAmaunt) {
   let minSpend = 30
