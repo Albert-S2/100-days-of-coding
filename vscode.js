@@ -1,59 +1,27 @@
+console.log(23 + 97);
+console.log(6 + 5 + 8 + 10 + 4 + 9);
+console.log((4 + 6 + 9) / 77);
 
+let a = 10
+console.log(a);
 
+let message = "Tomorrow is Sunday"; 
+console.log(message);
 
-function countNumberOfNinesInNumber(number) {
-  let count = 0;
+let number = 24
+let number2 = 76
 
-  for(let i = 0; i < number.toString().length; i++) {
-    let newNumber = number.toString();
-    let digit = newNumber [i];
-    if ('9' === digit) {
-      count++;
-    }
-  }
-  return count
-}
-console.log(countNumberOfNinesInNumber(5679959476909)); 
+console.log(`my favorite number is ${number + number2}`); 
 
-function howManyFours(numbers) {
-  let count = 0;
+let abc = 56
+let bcc = 34
+let ccba = abc + bcc; 
 
-  for(let i = 0; i < numbers.toString().length; i++) {
-    let newNumbers = numbers.toString()
-    let digits = newNumbers[i];
-    if('4' === digits) {
-      count++
-    }
-  } 
-  return count
-} console.log(howManyFours(46464562342444))
+console.log(`Thomas run yesterday ${(ccba + abc) / 1000} kilometers`)
 
-let characters = ["Richard", "John", "Charles", "Henry"]
+let MAX = 57
+let actual = MAX - 13
+let percentage = actual / MAX
 
-for(let index = 0; index < characters.length; index++) {
-  characters[index] = `${characters[index]} King`
+console.log(percentage)
 
-}
-console.log(`${characters}`); 
-
-
-let names = ['Ana', 'Patrick', 'Thomas', 'Julie', 'Kathryn', 'Isabel']; 
-
-for (let i = 0; i < names.length; i++) {
-  
-  console.log(`Welcome to the team, ${[i]}`); 
-}
-
-function applyDiscount(totalAmaunt) {
-  let minSpend = 30
-
-  let discount = totalAmaunt * 0.9;
-
-  if(totalAmaunt > minSpend) {
-    finalAmaunt = discount;
-    return finalAmaunt; 
-  } else {
-    return totalAmaunt;
-  }
-}
-console.log(`With discount your price is ${applyDiscount(300)}`)
